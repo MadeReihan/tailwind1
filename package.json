@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwindcss -i ./public/css/style.css -o ./public/css/tailwind.css",
-    "watch:tailwind":"nodemon --watch ./public/css/style.css -x \"npm run build:css\"",
-    "serve":"npm run watch:tailwind",
     "dev": "npx tailwindcss -i ./public/css/style.css -o ./public/css/tailwind.css --watch"
   },
   "author": "",
