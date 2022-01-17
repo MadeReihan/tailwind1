@@ -14,6 +14,9 @@ module.exports = {
         borderColor:{
           purple:'#6860f5',
         },
+        boxShadow:{
+          card: "0px 4px 30px -1px rgba(0,0,0,0.07)"
+        },
       },
     },
     plugins: [],
